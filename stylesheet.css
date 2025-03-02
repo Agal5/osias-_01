@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+}
+img{
+    border-radius: 20px;
+}
+#hero {
+    background-image: url('photo-1478098711619-5ab0b478d6e6.jpeg');
+    background-size: cover;
+    background-position: center; 
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+.hero-content{
+    text-align: left;
+    justify-content: left;
+    padding-right: 40%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-content h1{
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: #ffff;
+    font-size: 100px;
+    
+}
+.hero-content p{
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: #ffff;
+    font-size: 100%;
+    font-weight: lighter;
+}
+.cta-button{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(251, 255, 0);
+    color:black;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+.frstimg{
+    padding: 40px;
+    height: 90px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.para{
+    text-align: justify;
+    line-height: 20px;
+    display:column;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    
+}
+.para h1{
+    text-align: center;
+    padding-bottom:20px ;
+    margin: 0;
+}
+.bot img{
+    display:inline;
+    height:80px;
+    width: 80px;
+    padding-left: 90%;
+    border-radius: 40px;
+}
+.foot{
+    background-color:black;
+    color:white;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.foot h1{
+    padding: 20px;
+}
+.foot p{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+span{
+    font-weight: bolder;
+}
+body{
+   background-image: url(nyt-star.jpeg);
+    color: white;
+}
